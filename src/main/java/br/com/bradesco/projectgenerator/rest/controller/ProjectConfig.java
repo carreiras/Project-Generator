@@ -12,7 +12,7 @@ public class ProjectConfig {
     private String valueStream;
     private String namespace;
     private String clustersName;
-
+    private String versionTemplate;
     private List<String> excludes;
 
     // getters and setters
@@ -84,6 +84,14 @@ public class ProjectConfig {
 
     public void setClustersName(String clustersName) {
         this.clustersName = clustersName;
+    }
+
+    public String getVersionTemplate() {
+        return versionTemplate;
+    }
+
+    public void setVersionTemplate(String versionTemplate) {
+        this.versionTemplate = versionTemplate;
     }
 
     public void setExcludes(List<String> excludes) {

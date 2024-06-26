@@ -58,3 +58,20 @@
     ]
 }
 ```
+```
+{
+    "projectName": "teste",
+    "groupId": "br.com.bradesco",
+    "artifactId": "testeone",
+    "version": "1.0.0",
+    "costCenter": "LEAP",
+    "valueStream": "leap-vs",
+    "namespace": "ensc-lab-leap",
+    "clustersName": "platca",
+    "versionTemplate": "1.0.0",
+    "excludes": [
+        "**/config/redis/*.java",
+        "**/config/kafka/KafkaConfigProducer.java"
+    ]
+}
+```
