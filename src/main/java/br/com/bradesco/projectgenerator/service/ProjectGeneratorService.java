@@ -109,7 +109,7 @@ public class ProjectGeneratorService {
         try {
             String content = new String(Files.readAllBytes(file), StandardCharsets.UTF_8);
 
-            content = content.replace("${projectName}", config.getProjectName());
+            content = content.replace("${name}", config.getProjectName());
             content = content.replace("${groupId}", config.getGroupId());
             content = content.replace("${artifactId}", config.getArtifactId());
             content = content.replace("${version}", config.getVersion());
